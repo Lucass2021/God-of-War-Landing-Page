@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:"Mukta Vaani",sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+header{
+    padding: 0 30px;
+}
+
+header img{
+width:100px;
+}
+
+header .menu{
+    float:right;
+    list-style:none;
+    margin-top:20px
+}
+
+.menu li{
+    display:inline-block;
+    margin-left:5px;
+    padding:20px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color:white;
+}
+
+main{
+    position:relative;
+    
+}
+
+main img{
+float:right;
+height:800px;
+
+position:absolute;
+top:0%;
+right:-10%;
+filter: brightness(90%);
+}
+
+.logo{
+    float:left;
+    height:100px;
+    left:5%;
+    top:50%;
+    
+}
+
+#textContainer{
+    margin-left:30px;
+    text-align:center;
+    max-width:500px;
+    padding:10px;
+    
+
+    position:relative;
+    transform:translateY(100%);
+    color:white;
+
+}
+
+
+
+#textContainer h2{
+    letter-spacing: 2px;
+}
+
+#textContainer p{
+    margin-top:15px;
+    letter-spacing: 0.2px;
+}
+
+#textContainer .buy{
+padding:10px 30px;
+border:none;
+
+color:white;
+font-size:20px;
+letter-spacing: 0.2px;
+background: #548bb2;
+border-radius:5px;
+
+margin-top:20px;
+opacity:1;
+}
+
+#textContainer .buy:hover{
+    cursor:pointer;
+    opacity:.8;
+    transition:.5s;
+    background:#922929;
+}
+
+.background{
+position:fixed;
+z-index:-5;
+
+width:100%;
+height:100%;
+
+top:0;
+
+
+
+
+}
+
+#videoTag{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+    filter: brightness(50%);
+}
